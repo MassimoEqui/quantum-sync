@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     33461,        853]
-NotebookOptionsPosition[     30144,        793]
-NotebookOutlinePosition[     30541,        809]
-CellTagsIndexPosition[     30498,        806]
+NotebookDataLength[     30602,        775]
+NotebookOptionsPosition[     27375,        716]
+NotebookOutlinePosition[     27779,        732]
+CellTagsIndexPosition[     27736,        729]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -703,83 +703,6 @@ Cell[BoxData[
 }, Open  ]],
 
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"idxbittuples", "=", 
-     RowBox[{"Tuples", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"0", ",", "1"}], "}"}], ",", "2"}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"databittuples", "=", " ", 
-     RowBox[{"Tuples", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"0", ",", "1"}], "}"}], ",", "2"}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"databittupletuples", " ", "=", 
-     RowBox[{"Tuples", "[", 
-      RowBox[{"databittuples", ",", 
-       RowBox[{"Length", "[", "idxbittuples", "]"}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"MakeVector", "[", 
-      RowBox[{
-       RowBox[{"{", "}"}], ",", 
-       RowBox[{"{", "}"}]}], "]"}], ":=", 
-     RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"MakeVector", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"idxtuple_", ",", "idxtail___"}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"datatuple_", ",", "datatail___"}], "}"}]}], "]"}], ":=", 
-     RowBox[{"Join", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"Join", "[", 
-         RowBox[{"idxtuple", ",", "datatuple"}], "]"}], "}"}], ",", 
-       RowBox[{"MakeVector", "[", 
-        RowBox[{
-         RowBox[{"{", "idxtail", "}"}], ",", 
-         RowBox[{"{", "datatail", "}"}]}], "]"}]}], "]"}]}], ";", 
-    RowBox[{
-     RowBox[{"MakeVectors", "[", 
-      RowBox[{"idxtuples_", ",", 
-       RowBox[{"{", "}"}]}], "]"}], ":=", 
-     RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"MakeVectors", "[", 
-      RowBox[{"idxtuples_", ",", 
-       RowBox[{"{", 
-        RowBox[{"datatupletuple_", ",", "datatail___"}], "}"}]}], "]"}], ":=", 
-     RowBox[{"Join", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"MakeVector", "[", 
-         RowBox[{"idxtuples", ",", "datatupletuple"}], "]"}], "}"}], ",", 
-       RowBox[{"MakeVectors", "[", 
-        RowBox[{"idxtuples", ",", 
-         RowBox[{"{", "datatail", "}"}]}], "]"}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]"}]}]], "Input",
- CellChangeTimes->{{3.987914090231181*^9, 3.9879141398943663`*^9}, {
-   3.9879141774935493`*^9, 3.987914181935536*^9}, {3.987914288921996*^9, 
-   3.9879142965664663`*^9}, {3.987914368365665*^9, 3.987914370742867*^9}, {
-   3.987914580402153*^9, 3.987914583077854*^9}, {3.987914628106452*^9, 
-   3.98791464485706*^9}, {3.987914688336938*^9, 3.9879148141143627`*^9}, {
-   3.9879150292798223`*^9, 3.987915111049623*^9}, 3.987915321239008*^9, 
-   3.9880725979141703`*^9},
- CellLabel->
-  "In[569]:=",ExpressionUUID->"33ef6a7f-91ee-4d31-9a09-62b614574913"],
-
-Cell[BoxData[
  RowBox[{"(*", 
   RowBox[{
    RowBox[{"Segre", " ", "variety"}], ",", " ", 
@@ -791,8 +714,8 @@ Cell[BoxData[
   3.988074868406168*^9}},ExpressionUUID->"ab35ee13-cade-4eef-8ebc-\
 d09ed38cc569"]
 },
-WindowSize->{1383, 855},
-WindowMargins->{{-2.25, Automatic}, {Automatic, -22.5}},
+WindowSize->{1915.5, 1055.25},
+WindowMargins->{{Automatic, -220.5}, {922.5, Automatic}},
 FrontEndVersion->"14.1 for Linux x86 (64-bit) (July 16, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"dfdc5413-9d64-4b0d-9d8d-0c4f04f102b4"
@@ -853,8 +776,7 @@ Cell[CellGroupData[{
 Cell[25658, 661, 242, 5, 29, "Input",ExpressionUUID->"cb16ac30-e6f9-4618-806b-96b0ed2c4650"],
 Cell[25903, 668, 1081, 33, 33, "Output",ExpressionUUID->"c816764b-dedd-453c-83bd-758cd6fa3c5f"]
 }, Open  ]],
-Cell[26999, 704, 2766, 75, 189, "Input",ExpressionUUID->"33ef6a7f-91ee-4d31-9a09-62b614574913"],
-Cell[29768, 781, 372, 10, 29, "Input",ExpressionUUID->"ab35ee13-cade-4eef-8ebc-d09ed38cc569"]
+Cell[26999, 704, 372, 10, 29, "Input",ExpressionUUID->"ab35ee13-cade-4eef-8ebc-d09ed38cc569"]
 }
 ]
 *)
