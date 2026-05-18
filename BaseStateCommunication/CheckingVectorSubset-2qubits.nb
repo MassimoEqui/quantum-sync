@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     32969,        839]
-NotebookOptionsPosition[     29741,        780]
-NotebookOutlinePosition[     30144,        796]
-CellTagsIndexPosition[     30101,        793]
+NotebookDataLength[     33461,        853]
+NotebookOptionsPosition[     30144,        793]
+NotebookOutlinePosition[     30541,        809]
+CellTagsIndexPosition[     30498,        806]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -774,11 +774,24 @@ Cell[BoxData[
    3.9879142965664663`*^9}, {3.987914368365665*^9, 3.987914370742867*^9}, {
    3.987914580402153*^9, 3.987914583077854*^9}, {3.987914628106452*^9, 
    3.98791464485706*^9}, {3.987914688336938*^9, 3.9879148141143627`*^9}, {
-   3.9879150292798223`*^9, 3.987915111049623*^9}, 3.987915321239008*^9},
+   3.9879150292798223`*^9, 3.987915111049623*^9}, 3.987915321239008*^9, 
+   3.9880725979141703`*^9},
  CellLabel->
-  "In[569]:=",ExpressionUUID->"33ef6a7f-91ee-4d31-9a09-62b614574913"]
+  "In[569]:=",ExpressionUUID->"33ef6a7f-91ee-4d31-9a09-62b614574913"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{"Segre", " ", "variety"}], ",", " ", 
+   RowBox[{
+   "Tensor", " ", "rank", " ", "to", " ", "check", " ", "entanglement"}]}], 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.988072603226057*^9, 3.988072604302478*^9}, {
+  3.98807484955439*^9, 
+  3.988074868406168*^9}},ExpressionUUID->"ab35ee13-cade-4eef-8ebc-\
+d09ed38cc569"]
 },
-WindowSize->{1915.5, 1055.25},
+WindowSize->{1383, 855},
 WindowMargins->{{-2.25, Automatic}, {Automatic, -22.5}},
 FrontEndVersion->"14.1 for Linux x86 (64-bit) (July 16, 2024)",
 StyleDefinitions->"Default.nb",
@@ -840,7 +853,8 @@ Cell[CellGroupData[{
 Cell[25658, 661, 242, 5, 29, "Input",ExpressionUUID->"cb16ac30-e6f9-4618-806b-96b0ed2c4650"],
 Cell[25903, 668, 1081, 33, 33, "Output",ExpressionUUID->"c816764b-dedd-453c-83bd-758cd6fa3c5f"]
 }, Open  ]],
-Cell[26999, 704, 2738, 74, 169, "Input",ExpressionUUID->"33ef6a7f-91ee-4d31-9a09-62b614574913"]
+Cell[26999, 704, 2766, 75, 189, "Input",ExpressionUUID->"33ef6a7f-91ee-4d31-9a09-62b614574913"],
+Cell[29768, 781, 372, 10, 29, "Input",ExpressionUUID->"ab35ee13-cade-4eef-8ebc-d09ed38cc569"]
 }
 ]
 *)
